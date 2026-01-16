@@ -14,6 +14,12 @@ The project focuses on:
 - Training a regression model on the Iris dataset
 - Tracking experiments using MLflow
 - Logging and inferencing model artifacts with MLflow
+- Inferencing model Artigacts with MLFLOW inferncing, Tracking parameters
+- Comparing Diff models vs metrics
+- Validate tyhe model before deployment via Inferencing,
+- And load model back prediction as Generative python function (MLFLOW.pyfunc)
+- Register model in MLFLOW: version, tags, and Aliase
+- Inferencing from model registry: Model, parameters, ,model_uri path, prediction values
 
 ---
 
