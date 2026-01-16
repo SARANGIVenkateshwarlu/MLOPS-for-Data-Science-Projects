@@ -34,21 +34,7 @@ The project focuses on:
 
 ---
 
-## ✅ Completed Steps
-
-### 1️⃣ Environment Setup
-- Created a Python virtual environment in **VS Code**
-- Activated the environment for isolated dependency management
-
-```bash
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
-
-
---- 
-
-# Project -2 :   House Price Prediction with MLflow 
+## Project -2 :   House Price Prediction with MLflow Tracking 
 
 ## 📌 Project Overview 
 This project demonstrates an **end-to-end machine learning workflow** for **house price prediction** using the **California Housing dataset** and **MLflow** for experiment tracking, hyperparameter tuning, and model registration.
@@ -61,34 +47,16 @@ The main goals of this project are:
 
 --- 
 
-## 🚀 Technologies Used  
-- Python 3.10 
-- pandas 
-- scikit-learn 
-- MLflow 
-- Jupyter Notebook 
-- VS Code 
-
----
-
 ## 📊 Dataset 
 - **California Housing Dataset** 
 - Source: `sklearn.datasets.fetch_california_housing` 
 - Number of samples: **20,640**
-- Features: 
-  - MedInc (Median Income) 
-  - HouseAge 
-  - AveRooms 
-  - AveBedrms 
-  - Population 
-  - AveOccup 
-  - Latitude 
-  - Longitude 
+- Features:  - MedInc (Median Income),  - HouseAge, - AveRooms, - AveBedrms 
+  - Population, - AveOccup, - Latitude, - Longitude 
 - Target: 
   - **Price** (Median house value in units of $100,000) 
 
 ---
-
 ## 🧠 Model 
 - Algorithm: **Random Forest Regressor** 
 - Evaluation metric: **Mean Squared Error (MSE)** 
@@ -115,11 +83,7 @@ The main goals of this project are:
 ### 3️⃣ Hyperparameter Tuning 
 - Hyperparameter tuning implemented using `GridSearchCV` 
 - Parameters tuned: 
-  - `n_estimators` 
-  - `max_depth` 
-  - `min_samples_split` 
-  - `min_samples_leaf` 
-- 3-fold cross-validation used 
+  - `n_estimators` , - `max_depth` , - `min_samples_split`, - `min_samples_leaf`, - 3-fold cross-validation used 
 - Scoring metric: `neg_mean_squared_error` 
 
 ---
@@ -133,10 +97,7 @@ The main goals of this project are:
 
 ### 5️⃣ MLflow Experiment Tracking 
 - MLflow tracking server used (`http://127.0.0.1:5000`) 
-- Logged to MLflow: 
-  - Best hyperparameters 
-  - Mean Squared Error (MSE) 
-  - Model artifacts 
+- Logged to MLflow: Best hyperparameters, Mean Squared Error (MSE), Model artifacts  
 - Model input/output signature inferred using `infer_signature` 
 
 ---
@@ -144,7 +105,7 @@ The main goals of this project are:
 ### 6️⃣ Model Registration 
 - Best-performing model registered in **MLflow Model Registry** 
 - Registered model name:
- Results
+
 
 ### Best Model: Random Forest Regressor 
     Best Hyperparameters: 
@@ -154,4 +115,4 @@ The main goals of this project are:
     min_samples_leaf: 1 
     Mean Squared Error (MSE): ~0.25 
     Model successfully tracked and registered in MLflow 
-
+---
