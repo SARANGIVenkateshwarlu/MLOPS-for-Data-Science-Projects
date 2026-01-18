@@ -116,3 +116,98 @@ The main goals of this project are:
     Mean Squared Error (MSE): ~0.25 
     Model successfully tracked and registered in MLflow 
 ---
+
+# Project -3 ANN with MLflow – End‑to‑End MLOps Project
+
+## 🔍 Project Summary
+Production-oriented **MLOps pipeline** demonstrating how to train, tune, track, register, and serve an **Artificial Neural Network (ANN)** using **MLflow**.  
+The project covers the **full ML lifecycle** from experimentation to deployment-ready inference.
+
+---
+
+## 💼 Why This Project Matters  
+This project demonstrates hands-on experience with:
+- ✅ **Experiment tracking at scale**
+- ✅ **Hyperparameter optimization**
+- ✅ **Model registry & versioning**
+- ✅ **Reproducible ML workflows**
+- ✅ **Deployment-ready model artifacts**
+
+It reflects **real-world ML engineering and MLOps practices**, not just model training.
+
+---
+
+## 🧠 Technical Highlights
+
+### Model
+- ANN built with **Keras**
+- Regression task (Wine Quality prediction)
+- Feature normalization inside the model graph
+- Metric-driven model selection (RMSE)
+
+### Optimization
+- **Hyperopt + TPE** for hyperparameter search
+- Search space:
+  - Learning rate (log-uniform)
+  - Momentum (uniform)
+- Best model selected automatically based on validation RMSE
+
+---
+
+## 🧪 Experiment Tracking & Model Management
+- **MLflow Experiments**
+  - Parameters
+  - Metrics
+  - Model artifacts
+- **Nested runs** for hyperparameter sweeps
+- **MLflow Model Registry**
+  - Versioned models
+  - Promotion-ready artifacts
+
+---
+
+## 🚀 Inference & Serving Readiness
+- Model loaded using **MLflow PyFunc**
+- Serving input validated prior to deployment
+- Compatible with:
+  - REST API serving
+  - Batch inference
+  - Cloud ML platforms
+
+---
+
+## ☁️ Deployment Readiness
+- MLflow-compatible model format
+- Can be packaged into:
+  - Docker containers
+  - Cloud-native serving endpoints
+- Clear separation of training, evaluation, and inference
+
+---
+
+## 🛠 Tech Stack
+- Python 3.10
+- Keras / TensorFlow
+- MLflow
+- Hyperopt
+- Scikit-learn
+- Pandas / NumPy
+
+---
+
+## 📊 Key Outcomes
+- Automated experiment comparison
+- Best-performing ANN selected and registered
+- Fully reproducible ML pipeline
+- Production-aligned workflow (training → registry → inference)
+
+---
+
+## 🎯 Skills Demonstrated
+- MLOps & ML Engineering
+- Experiment tracking & reproducibility
+- Hyperparameter optimization
+- Model versioning & governance
+- Deployment-oriented ML design
+
+---
