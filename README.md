@@ -211,3 +211,107 @@ It reflects **real-world ML engineering and MLOps practices**, not just model tr
 - Deployment-oriented ML design
 
 ---
+# Project -4:  Machine Learning Pipeline with DVC & MLflow
+📌 Project Overview
+
+This project demonstrates how to build an end-to-end machine learning pipeline using DVC (Data Version Control) for data and model versioning and MLflow for experiment tracking.
+The pipeline trains and evaluates a Random Forest Classifier on the Pima Indians Diabetes Dataset, following best practices for reproducibility and MLOps.
+
+The goal of this project is to show how data, code, models, and experiments can be tracked together in a structured and scalable way. (dagshub.com)
+🚀 Key Features
+
+    ✅ End-to-end ML pipeline
+    ✅ Data and model versioning with DVC
+    ✅ Experiment tracking with MLflow
+    ✅ Reproducible pipeline stages
+    ✅ Modular and scalable project structure
+    ✅ Integration-ready with cloud storage (S3 / GCS / Azure)
+
+🧰 Tech Stack
+
+    Python
+    Scikit-learn
+    DVC – data & pipeline versioning
+    MLflow – experiment tracking
+    Git / DagsHub – code, data, and collaboration
+
+📂 Project Structure
+text
+
+machinelearningpipeline/
+│
+├── data/                  # Raw and processed datasets (DVC tracked)
+├── src/                   # Source code for pipeline stages
+│   ├── data_preprocessing.py
+│   ├── train_model.py
+│   └── evaluate_model.py
+│
+├── models/                # Trained models (DVC tracked)
+├── dvc.yaml               # DVC pipeline definition
+├── params.yaml            # Model and pipeline parameters
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
+
+🔄 Pipeline Stages
+
+    Data Preprocessing
+        Cleans and prepares the dataset
+        Splits data into training and test sets
+
+    Model Training
+        Trains a Random Forest Classifier
+        Logs parameters and metrics to MLflow
+
+    Model Evaluation
+        Evaluates model performance
+        Tracks evaluation metrics for comparison
+
+▶️ How to Run the Project
+1️⃣ Clone the Repository
+bash
+
+git clone https://dagshub.com/venky.sarangi/machinelearningpipeline
+cd machinelearningpipeline
+
+2️⃣ Create Environment & Install Dependencies
+bash
+
+pip install -r requirements.txt
+
+3️⃣ Run the DVC Pipeline
+bash
+
+dvc repro
+
+📊 Experiment Tracking
+
+All experiments, metrics, and model artifacts are logged using MLflow.
+You can compare runs and analyze performance directly from the DagsHub UI.
+☁️ Data & Model Versioning
+
+    Datasets and models are tracked using DVC
+    Supports remote storage (AWS S3, GCS, Azure, or DagsHub Storage)
+    Ensures full reproducibility across environments
+
+🎯 Use Cases
+
+    Learning MLOps fundamentals
+    Building reproducible ML workflows
+    Experiment tracking and model comparison
+    Production-ready ML pipeline templates
+
+🤝 Contributing
+
+Contributions are welcome!
+Feel free to open issues or submit pull requests to improve the pipeline.
+📜 License
+
+This project is intended for educational and learning purposes.
+⭐ If you find this project useful, consider starring it!
+
+If you want, I can also:
+
+    Tailor this README for GitHub vs DagsHub
+    Add badges (Python, DVC, MLflow)
+    Create a Beginner-friendly version
+    Generate a project architecture diagram
