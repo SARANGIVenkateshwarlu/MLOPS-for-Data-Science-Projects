@@ -315,3 +315,11 @@ If you want, I can also:
     Add badges (Python, DVC, MLflow)
     Create a Beginner-friendly version
     Generate a project architecture diagram
+
+
+# Project -5  🐳 Basic Hello Docker Project 
+
+- `docker --version` → Verify Docker installation  
+- `docker build -t welcome-app .` → Build Docker image  
+- `docker run -p 5000:5000 welcome-app` → Run the container  
+- `docker ps` → Check running containers
