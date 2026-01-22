@@ -323,3 +323,184 @@ If you want, I can also:
 - `docker build -t welcome-app .` → Build Docker image  
 - `docker run -p 5000:5000 welcome-app` → Run the container  
 - `docker ps` → Check running containers
+
+
+# Project -6.1 🚀 Apache Airflow Learning Projects (Math + MLOps)
+
+This repository contains beginner‑to‑intermediate Apache Airflow examples designed to help you understand real‑world workflows and MLOps pipelines using modern Airflow 2.x (TaskFlow API).
+
+✅ Can be run locally using Astronomer (Astro CLI)
+✅ Easy to understand and production‑oriented
+✅ Fully compatible with Airflow UI
+📂 Project Structure
+text
+
+.
+├── dags/
+│   ├── math_sequence_dag.py
+│   └── mlops_basic_pipeline.py
+├── README.md
+└── requirements.txt
+
+📌 Project 1: Math Sequence DAG
+🔢 Description
+
+This DAG demonstrates task dependencies and XCom value passing using a simple math workflow.
+✅ Workflow Steps
+
+    Start with number 10
+    Add 5
+    Multiply by 2
+    Subtract 3
+    Square the final result
+
+✅ Concepts Learned
+
+    DAG creation
+    TaskFlow API (@task)
+    Task dependencies
+    Automatic XComs
+    Logs in Airflow UI
+
+✅ Final Result
+basic
+
+10 → 15 → 30 → 27 → 729
+
+📄 DAG File
+
+dags/math_sequence_dag.py
+
+# Project -6.2: Real‑World MLOps Pipeline
+🤖 Description
+
+This project simulates a production‑style MLOps workflow commonly used in real companies.
+✅ Workflow Steps
+
+    Extract data (mock)
+    Validate data
+    Train ML model
+    Evaluate model performance
+    Decide whether to deploy
+
+✅ Concepts Learned
+
+    End‑to‑end ML pipelines
+    Data validation
+    Model training & evaluation
+    Deployment decision logic
+    Failure handling
+
+📄 DAG File
+
+dags/mlops_basic_pipeline.py
+
+🔄 MLOps Workflow Diagram (Logical)
+
+Extract Data
+     ↓
+Validate Data
+     ↓
+Train Model
+     ↓
+Evaluate Model
+     ↓
+Deploy Model (Yes / No)
+
+🛠️ Prerequisites
+
+    Docker
+    Git
+    Astro CLI
+
+✅ Install Astro CLI
+bash
+
+curl -sSL https://install.astronomer.io | sudo bash
+
+Verify:
+bash
+
+astro version
+
+▶️ How to Run the Project Locally
+1️⃣ Clone the Repository
+bash
+
+git clone https://github.com/your-username/airflow-learning-projects.git
+cd airflow-learning-projects
+
+2️⃣ Start Airflow with Astro
+bash
+
+astro dev start
+
+3️⃣ Open Airflow UI
+
+http://localhost:8080
+
+Login:
+
+Username: admin
+Password: admin
+
+4️⃣ Trigger the DAGs
+
+    math_sequence_dag
+    mlops_basic_pipeline
+
+🎯 What You Will Learn
+✅ Apache Airflow
+
+    DAG lifecycle
+    TaskFlow API
+    Scheduling
+    Logging & retries
+    XComs
+    UI debugging
+
+✅ MLOps Foundations
+
+    Pipeline design
+    Model validation
+    Deployment decision logic
+    Production‑style workflows
+
+🧠 How This Maps to Real Production Systems
+Learning Example	Real Production
+extract_data	S3 / BigQuery / APIs
+validate_data	Great Expectations
+train_model	sklearn / PyTorch
+evaluate_model	MLflow
+deploy_model	Kubernetes / SageMaker
+🚀 Future Enhancements
+
+Planned improvements:
+
+    MLflow integration
+    Branching DAGs
+    Sensors for new data
+    CI/CD for DAGs
+    Feature engineering pipelines
+    Retraining schedules
+
+🤝 Contributions
+
+Contributions are welcome!
+Feel free to:
+
+    Open issues
+    Submit pull requests
+    Suggest improvements
+
+📜 License
+
+This project is licensed under the MIT License.
+⭐ Support
+
+If this repository helped you learn Airflow or MLOps:
+
+    ⭐ Star the repo
+    🔁 Share it with others
+
+Happy Learning & Orchestrating 🚀
