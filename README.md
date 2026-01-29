@@ -504,3 +504,74 @@ If this repository helped you learn Airflow or MLOps:
     🔁 Share it with others
 
 Happy Learning & Orchestrating 🚀
+
+
+📊 Project Summary Table
+Project Name	Task	Objective	Prominent Techniques / Tools
+Project 1: Linear Regression with Iris Dataset (MLflow)	Regression modeling & experiment tracking	Learn MLflow fundamentals: tracking, inference, model registry, versioning	Python, Scikit‑learn, MLflow, Pandas, NumPy, MLflow PyFunc
+Project 2: House Price Prediction (MLflow)	End‑to‑end regression with tuning	Train, tune, compare, and register best model using MLflow	Random Forest, GridSearchCV, MLflow Tracking & Registry, sklearn
+Project 3: ANN with MLflow (End‑to‑End MLOps)	Neural network regression	Build production‑ready ANN with full ML lifecycle	Keras/TensorFlow, MLflow, Hyperopt (TPE), PyFunc, Model Registry
+Project 4: ML Pipeline with DVC & MLflow	Reproducible ML pipeline	Version data, models, and experiments together	DVC, MLflow, Random Forest, Git, DagsHub
+Project 5: Hello Docker Project	Containerization basics	Learn Docker image build & container execution	Docker CLI, Dockerfile, Container lifecycle
+Project 6.1: Airflow Math Sequence DAG	Workflow orchestration	Learn DAGs, dependencies, and XComs	Apache Airflow 2.x, TaskFlow API, Astro CLI
+Project 6.2: Airflow MLOps Pipeline	MLOps workflow orchestration	Simulate real‑world ML pipeline with deploy decisions	Airflow, Python, MLOps concepts, Astro CLI
+🎯 Skill Coverage Map
+
+Machine Learning
+
+    Regression, Classification, ANN
+    Model evaluation (MSE, RMSE)
+    Feature handling & preprocessing
+
+MLOps
+
+    MLflow tracking & registry
+    Model inference & validation
+    Hyperparameter optimization
+    Reproducibility & governance
+
+Data & Pipeline Engineering
+
+    DVC pipelines
+    Versioned datasets & models
+    Parameterized workflows
+
+DevOps / Platform
+
+    Docker fundamentals
+    Airflow orchestration
+    Astronomer (Astro CLI)
+
+📌 Project Summary
+🚀 Project	🧩 Task	🎯 Objective	🛠️ Prominent Techniques / Tools
+Linear Regression with Iris (MLflow)	Regression & experiment tracking	Learn MLflow tracking, inference, model registry, versioning	Python, Scikit‑learn, MLflow, Pandas, NumPy, MLflow PyFunc
+House Price Prediction (MLflow)	End‑to‑end regression	Train, tune, compare, and register best model	Random Forest, GridSearchCV, MLflow Tracking & Registry
+ANN with MLflow (End‑to‑End MLOps)	Neural network regression	Build production‑ready ANN with full ML lifecycle	Keras, TensorFlow, MLflow, Hyperopt (TPE), PyFunc
+ML Pipeline with DVC & MLflow	Reproducible ML pipeline	Version data, models, and experiments together	DVC, MLflow, Random Forest, Git, DagsHub
+Hello Docker Project	Containerization basics	Learn Docker image build & container execution	Docker, Dockerfile, Container Lifecycle
+Airflow Math Sequence DAG	Workflow orchestration	Learn DAGs, dependencies, and XComs	Apache Airflow 2.x, TaskFlow API, Astro CLI
+Airflow MLOps Pipeline	End‑to‑end MLOps workflow	Simulate real‑world ML pipeline with deploy decisions	Airflow, Python, MLOps Concepts, Astro CLI
+
+---
+# Project Summary
+:---:
+| Project Name | Task | Objective | Tools |
+|--------------|------|-----------|-------|
+| Project A | Regression | Model training | Python, MLflow |
+| Project B | Classification | Accuracy improvement | Sklearn |
+| Project C | Pipeline | Automation | Airflow |
+
+---
+# <h2 align="center">📌  Project Summary </h2>
+
+| 🚀 Project | 🧩 Task | 🎯 Objective | 🛠️ Prominent Techniques / Tools |
+|-----------|--------|--------------|---------------------------------|
+| Linear Regression with Iris (MLflow) | Regression & experiment tracking | Learn MLflow tracking, inference, model registry, versioning | Python, Scikit‑learn, MLflow, Pandas, NumPy, MLflow PyFunc |
+| House Price Prediction (MLflow) | End‑to‑end regression | Train, tune, compare, and register best model | Random Forest, GridSearchCV, MLflow Tracking & Registry |
+| ANN with MLflow (End‑to‑End MLOps) | Neural network regression | Build production‑ready ANN with full ML lifecycle | Keras, TensorFlow, MLflow, Hyperopt (TPE), PyFunc |
+| ML Pipeline with DVC & MLflow | Reproducible ML pipeline | Version data, models, and experiments together | DVC, MLflow, Random Forest, Git, DagsHub |
+| Hello Docker Project | Containerization basics | Learn Docker image build & container execution | Docker, Dockerfile, Container Lifecycle |
+| Airflow Math Sequence DAG | Workflow orchestration | Learn DAGs, dependencies, and XComs | Apache Airflow 2.x, TaskFlow API, Astro CLI |
+| Airflow MLOps Pipeline | End‑to‑end MLOps workflow | Simulate real‑world ML pipeline with deploy decisions | Airflow, Python, MLOps Concepts, Astro CLI |
+
+---
