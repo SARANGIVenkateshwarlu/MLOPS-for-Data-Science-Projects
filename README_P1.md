@@ -1,42 +1,39 @@
-# Project -1 : Linear Regression with Iris Dataset (MLflow Tracking) 
+# 🚀  MLOPS Project -1 : END‑TO‑END LOGISTIC REGRESSION WITH MLFLOW TRACKING MODEL LIFECYCLE MANAGEMENT 
 
-## 📌 Project Status
-🚧 **Work in Progress**  
-This project is under active development. Core setup and MLflow integration are completed, while model improvements and evaluation are still ongoing.
+## 🧠 Project Overview
 
----
+This project demonstrates my ability to build and manage a production‑ready machine learning pipeline using Logistic Regression and MLflow, following real‑world MLOps best practices. The focus is not just on model training, but on experiment tracking, model validation, versioning, and reproducible deployment workflows key skills expected from a Machine Learning or MLOps Engineer.
 
-## 📖 Project Overview
-This repository demonstrates a **Linear Regression model** built using the **Iris dataset**, with experiment tracking and model inference managed through **MLflow**.
+The project begins by establishing a clean and reproducible Python development environment, ensuring consistent experimentation and dependency management. Using the Iris dataset, I train and evaluate multiple classification models, systematically comparing their performance using standardized evaluation metrics.
 
-The project focuses on:
-- Setting up a clean Python development environment
-- Training a regression model on the Iris dataset
-- Tracking experiments using MLflow
-- Logging and inferencing model artifacts with MLflow
-- Inferencing model Artigacts with MLFLOW inferncing, Tracking parameters
-- Comparing Diff models vs metrics
-- Validate tyhe model before deployment via Inferencing,
-- And load model back prediction as Generative python function (MLFLOW.pyfunc)
-- Register model in MLFLOW: version, tags, and Aliase
-- Inferencing from model registry: Model, parameters, ,model_uri path, prediction values
+A central component of this project is MLflow Experiment Tracking. All model parameters, metrics, and artifacts are logged to MLflow, enabling transparent comparison between different model configurations. This allows for data‑driven model selection rather than ad‑hoc experimentation.
 
+Before deployment, each trained model undergoes validation through MLflow inferencing, ensuring reliability and correctness. Models are then serialized and reloaded using MLflow’s PyFunc (mlflow.pyfunc) interface, demonstrating how trained models can be reused as generic Python functions for inference in downstream applications.
+
+The project also showcases enterprise grade model lifecycle management by registering models in the MLflow Model Registry. Each model is versioned, tagged, and assigned aliases (such as Staging or Production), enabling controlled promotion across environments. Inference is performed directly from the Model Registry using model URIs, validating real‑world deployment scenarios where models are accessed dynamically rather than from local files.
+
+## Project Highlights 
+
+- Python Build end‑to‑end ML pipelines
+- Track and compare experiments systematically
+- Validate models before deployment
+- Manage model versions and metadata
+- Perform inference from a centralized model registry
+
+## Skills Demonstrated: 
+
+- Python & Scikit‑Learn 
+- Logistic Regression (Classification)
+- MLflow Experiment Tracking
+- Model Artifact Logging & Inferencing
+- MLflow PyFunc Models
+- Model Registry, Versioning, Tags & Aliases
+- Reproducible & Deployment‑Ready ML Pipelines
 ---
 
 ## 🛠️ Technologies Used
-- Python
-- Scikit-learn
-- Pandas
-- NumPy
-- MLflow
-- VS Code
-- Virtual Environment (`venv`)
+- Python - Scikit-learn - Pandas - NumPy - MLflow - VS Code - Virtual Environment (`venv`)
 
 ---
-1. Core Library: Hugging Face Transformers (Model loading and training).
-2. Model: Google Pegasus (State-of-the-art Summarization model).
-3. Dataset: SAMSum (Dialogue summarization dataset).
-4. Deep Learning Backend: PyTorch.
-5. Language: Python (Modular coding standards).
-6. Development: VS Code / Google Colab.
----
+🏗️
+
