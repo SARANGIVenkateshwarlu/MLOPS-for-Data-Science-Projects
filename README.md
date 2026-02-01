@@ -2,50 +2,13 @@
 
 | 🚀 Projects |  🧩 Task | 🎯 Objective | 🛠️ Prominent Techniques / Tools |
 |-----------|--------|--------------|---------------------------------|
-| Mlflow Tracking Model Registry | Regression & experiment tracking | Learn MLflow tracking, inference, model registry, versioning | Python, Scikit‑learn, MLflow, Pandas, NumPy, MLflow PyFunc |
-| House Price Prediction (MLflow) | End‑to‑end regression | Train, tune, compare, and register best model | Random Forest, GridSearchCV, MLflow Tracking & Registry |
-| ANN with MLflow (End‑to‑End MLOps) | Neural network regression | Build production‑ready ANN with full ML lifecycle | Keras, TensorFlow, MLflow, Hyperopt (TPE), PyFunc |
-| ML Pipeline with DVC & MLflow | Reproducible ML pipeline | Version data, models, and experiments together | DVC, MLflow, Random Forest, Git, DagsHub |
-| Hello Docker Project | Containerization basics | Learn Docker image build & container execution | Docker, Dockerfile, Container Lifecycle |
-| Airflow Math Sequence DAG | Workflow orchestration | Learn DAGs, dependencies, and XComs | Apache Airflow 2.x, TaskFlow API, Astro CLI |
-| Airflow MLOps Pipeline | End‑to‑end MLOps workflow | Simulate real‑world ML pipeline with deploy decisions | Airflow, Python, MLOps Concepts, Astro CLI |
-
----
-
-
-# Project -1 : Linear Regression with Iris Dataset (MLflow Tracking) 
-
-## 📌 Project Status
-🚧 **Work in Progress**  
-This project is under active development. Core setup and MLflow integration are completed, while model improvements and evaluation are still ongoing.
-
----
-
-## 📖 Project Overview
-This repository demonstrates a **Linear Regression model** built using the **Iris dataset**, with experiment tracking and model inference managed through **MLflow**.
-
-The project focuses on:
-- Setting up a clean Python development environment
-- Training a regression model on the Iris dataset
-- Tracking experiments using MLflow
-- Logging and inferencing model artifacts with MLflow
-- Inferencing model Artigacts with MLFLOW inferncing, Tracking parameters
-- Comparing Diff models vs metrics
-- Validate tyhe model before deployment via Inferencing,
-- And load model back prediction as Generative python function (MLFLOW.pyfunc)
-- Register model in MLFLOW: version, tags, and Aliase
-- Inferencing from model registry: Model, parameters, ,model_uri path, prediction values
-
----
-
-## 🛠️ Technologies Used
-- Python
-- Scikit-learn
-- Pandas
-- NumPy
-- MLflow
-- VS Code
-- Virtual Environment (`venv`)
+| 1.Mlflow Tracking Model Registry | Regression & experiment tracking | Learn MLflow tracking, inference, model registry, versioning | Python, Scikit‑learn, MLflow, Pandas, NumPy, MLflow PyFunc |
+| 2.House Price Prediction (MLflow) | End‑to‑end regression | Train, tune, compare, and register best model | Random Forest, GridSearchCV, MLflow Tracking & Registry |
+| 3.ANN with MLflow (End‑to‑End MLOps) | Neural network regression | Build production‑ready ANN with full ML lifecycle | Keras, TensorFlow, MLflow, Hyperopt (TPE), PyFunc |
+| 4.ML Pipeline with DVC & MLflow | Reproducible ML pipeline | Version data, models, and experiments together | DVC, MLflow, Random Forest, Git, DagsHub |
+| 5.Hello Docker Project | Containerization basics | Learn Docker image build & container execution | Docker, Dockerfile, Container Lifecycle |
+| 6.Airflow Math Sequence DAG | Workflow orchestration | Learn DAGs, dependencies, and XComs | Apache Airflow 2.x, TaskFlow API, Astro CLI |
+| 7.Airflow MLOps Pipeline | End‑to‑end MLOps workflow | Simulate real‑world ML pipeline with deploy decisions | Airflow, Python, MLOps Concepts, Astro CLI |
 
 ---
 
