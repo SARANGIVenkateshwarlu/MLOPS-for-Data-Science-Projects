@@ -1,5 +1,10 @@
 # 🚀  MLOPS Project -1 : END‑TO‑END LOGISTIC REGRESSION WITH MLFLOW TRACKING MODEL LIFECYCLE MANAGEMENT 
 
+
+   01_Project_Mlflow_Tracking_Model_Registry/assert/MLOPS_P1.png
+
+
+
 ## 🧠 Project Overview
 
 This project demonstrates my ability to build and manage a production‑ready machine learning pipeline using Logistic Regression and MLflow, following real‑world MLOps best practices. The focus is not just on model training, but on experiment tracking, model validation, versioning, and reproducible deployment workflows key skills expected from a Machine Learning or MLOps Engineer.
