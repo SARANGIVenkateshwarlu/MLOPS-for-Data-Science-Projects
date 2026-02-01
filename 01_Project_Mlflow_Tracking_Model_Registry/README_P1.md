@@ -46,5 +46,12 @@ The project also showcases enterprise grade model lifecycle management by regist
 - Python - Scikit-learn - Pandas - NumPy - MLflow - VS Code - Virtual Environment (`venv`)
 
 ---
-🏗️
+<p align="center"> 
+   <strong> Experiment Tracking </strong> 
+</p> 
+<p align="center"> 
+  <img src="assert/MLFLow_1.png" alt="Workflow Diagram" width="600"> 
+</p> 
+
+
 
