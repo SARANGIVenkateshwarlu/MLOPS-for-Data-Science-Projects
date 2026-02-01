@@ -1,9 +1,15 @@
 # 🚀  MLOPS Project -1 : END‑TO‑END LOGISTIC REGRESSION WITH MLFLOW TRACKING MODEL LIFECYCLE MANAGEMENT 
+---
+
+<p align="center"> 
+   <strong> Project Workflow </strong> 
+</p> 
+<p align="center"> 
+  <img src="assert/MLOPS_P1.png" alt="Workflow Diagram" width="600"> 
+</p> 
 
 
-   01_Project_Mlflow_Tracking_Model_Registry/assert/MLOPS_P1.png
-
-
+---
 
 ## 🧠 Project Overview
 
