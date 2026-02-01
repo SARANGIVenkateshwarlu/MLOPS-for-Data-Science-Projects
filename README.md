@@ -2,7 +2,7 @@
 
 | 🚀 Projects |  🧩 Task | 🎯 Objective | 🛠️ Prominent Techniques / Tools |
 |-----------|--------|--------------|---------------------------------|
-| Linear Regression with Iris (MLflow) | Regression & experiment tracking | Learn MLflow tracking, inference, model registry, versioning | Python, Scikit‑learn, MLflow, Pandas, NumPy, MLflow PyFunc |
+| Mlflow_Tracking_Model_Registry | Regression & experiment tracking | Learn MLflow tracking, inference, model registry, versioning | Python, Scikit‑learn, MLflow, Pandas, NumPy, MLflow PyFunc |
 | House Price Prediction (MLflow) | End‑to‑end regression | Train, tune, compare, and register best model | Random Forest, GridSearchCV, MLflow Tracking & Registry |
 | ANN with MLflow (End‑to‑End MLOps) | Neural network regression | Build production‑ready ANN with full ML lifecycle | Keras, TensorFlow, MLflow, Hyperopt (TPE), PyFunc |
 | ML Pipeline with DVC & MLflow | Reproducible ML pipeline | Version data, models, and experiments together | DVC, MLflow, Random Forest, Git, DagsHub |
