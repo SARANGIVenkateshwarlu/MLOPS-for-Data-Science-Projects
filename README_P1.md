@@ -33,3 +33,10 @@ The project focuses on:
 - Virtual Environment (`venv`)
 
 ---
+1. Core Library: Hugging Face Transformers (Model loading and training).
+2. Model: Google Pegasus (State-of-the-art Summarization model).
+3. Dataset: SAMSum (Dialogue summarization dataset).
+4. Deep Learning Backend: PyTorch.
+5. Language: Python (Modular coding standards).
+6. Development: VS Code / Google Colab.
+---
